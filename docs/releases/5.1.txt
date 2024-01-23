@@ -89,6 +89,11 @@ Minor features
 * :class:`~django.contrib.postgres.indexes.BTreeIndex` now supports the
   ``deduplicate_items`` parameter.
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 :mod:`django.contrib.redirects`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
